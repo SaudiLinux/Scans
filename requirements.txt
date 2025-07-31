@@ -1,0 +1,26 @@
+# Scan - متطلبات البرمجة
+# المبرمج: SayerLinux
+# البريد الإلكتروني: SaudiSayer@gmail.com
+
+# المتطلبات الأساسية
+
+# أدوات الفحص
+wapiti3>=3.1.7
+dirsearch>=0.4.3
+
+# المكتبات المساعدة
+requests>=2.28.0
+colorama>=0.4.6
+
+# ملاحظة: بعض الأدوات تتطلب تثبيت إضافي:
+# - WPScan: يتطلب تثبيت Ruby (gem install wpscan)
+# - gobuster: يتطلب تثبيت Go (go install github.com/OJ/gobuster/v3@latest)
+# - FFUF: يتطلب تثبيت Go (go install github.com/ffuf/ffuf@latest)
+requests>=2.25.1
+
+# أدوات الاختراق المطلوبة
+wapiti>=3.0.4
+wpscan>=3.8.22
+dirsearch>=0.4.2
+gobuster>=3.1.0
+ffuf>=1.5.0

@@ -1,0 +1,39 @@
+{
+  "default_settings": {
+    "output_directory": "results",
+    "default_wordlist": {
+      "windows": "C:\\wordlists\\common.txt",
+      "linux": "/usr/share/wordlists/dirb/common.txt"
+    },
+    "timeout": 300,
+    "threads": 10,
+    "user_agent": "Scan Tool (https://github.com/SayerLinux/Scan)"
+  },
+  "tool_settings": {
+    "wapiti": {
+      "enabled": true,
+      "options": "-f html -v 2"
+    },
+    "wpscan": {
+      "enabled": true,
+      "options": "--random-user-agent"
+    },
+    "dirsearch": {
+      "enabled": true,
+      "options": "-e php,html,js,txt"
+    },
+    "gobuster": {
+      "enabled": true,
+      "options": "-q -t 50"
+    },
+    "ffuf": {
+      "enabled": true,
+      "options": "-c -v -of json"
+    }
+  },
+  "author": {
+    "name": "SayerLinux",
+    "email": "SaudiSayer@gmail.com",
+    "website": "https://github.com/SayerLinux"
+  }
+}
